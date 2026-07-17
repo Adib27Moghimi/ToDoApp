@@ -22,13 +22,13 @@
     // ==========================
     // AI
     // ==========================
-    "github.copilot-chat",
-    "continue.continue",
-    "anthropic.claude-code",
+    // "github.copilot-chat",
+    // "continue.continue",
+    // "anthropic.claude-code",
     // ==========================
     // Productivity
     // ==========================
-    "usernamehw.errorlens",
+    // "usernamehw.errorlens",
     "streetsidesoftware.code-spell-checker",
     "oderwat.indent-rainbow",
     // ==========================

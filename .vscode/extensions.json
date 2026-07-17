@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    // ==========================
+    // Core
+    // ==========================
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "typescriptteam.native-preview",
+    // ==========================
+    // React / Next.js / TypeScript
+    // ==========================
+    "bradlc.vscode-tailwindcss",
+    "styled-components.vscode-styled-components",
+    "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense",
+    "eliostruyf.vscode-typescript-exportallmodules",
+    // ==========================
+    // Git
+    // ==========================
+    "eamodio.gitlens",
+    // ==========================
+    // AI
+    // ==========================
+    "github.copilot-chat",
+    "continue.continue",
+    "anthropic.claude-code",
+    // ==========================
+    // Productivity
+    // ==========================
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "oderwat.indent-rainbow",
+    // ==========================
+    // UI / Themes
+    // ==========================
+    "pkief.material-icon-theme",
+    "azemoh.one-monokai",
+    "monokai.theme-monokai-pro-vscode"
+  ],
+  "unwantedRecommendations": [
+    "mblode.pretty-formatter",
+    "mohd-akram.vscode-html-format",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "glenn2223.live-sass"
+  ]
+}

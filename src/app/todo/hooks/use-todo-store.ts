@@ -17,7 +17,7 @@ const useTodoStore = create<TodoStoreType>()(
         set((state) => ({
           todos: [
             ...state.todos,
-            { id: crypto.randomUUID(), title, idDone: false },
+            { id: crypto.randomUUID(), title, isDone: false },
           ],
         }));
       },
@@ -29,7 +29,7 @@ const useTodoStore = create<TodoStoreType>()(
       toggleTodo(id) {
         set((state) => ({
           todos: state.todos.map((todo) =>
-            todo.id === id ? { ...todo, isDone: !todo.idDone } : todo,
+            todo.id === id ? { ...todo, isDone: !todo.isDone } : todo,
           ),
         }));
       },
